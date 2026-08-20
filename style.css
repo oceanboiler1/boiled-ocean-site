@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 40px;
-  background: #f5f5f5;
+  background: #e6e6e6;
   color: #111;
 }
 
@@ -106,6 +106,7 @@ h1 {
   border-radius: 50%;
   overflow: hidden;
   position: relative;
+  background: white;
   flex-shrink: 0;
 }
 
