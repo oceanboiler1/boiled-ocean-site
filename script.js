@@ -1,10 +1,5 @@
 const tools = [
-  {
-    name: "GLB Viewer",
-    description: "View and inspect 3D models directly in your browser.",
-    image: "images/GLB.png",
-    link: "https://glb2viewer.netlify.app"
-  },
+
   {
     name: "Flight Planning Tool",
     description: "Simple tools for planning drone missions and checking flight parameters.",
@@ -22,7 +17,13 @@ const tools = [
     description: "Convert between KML and GeoJSON formats.",
     image: "images/KMLGeojson.png",
     link: "https://geojsonkml.netlify.app"
-  }
+  },
+  {
+    name: "GLB Viewer",
+    description: "View and inspect 3D models directly in your browser.",
+    image: "images/GLB.png",
+    link: "https://glb2viewer.netlify.app"
+  },
 ];
 
 const toolsGrid = document.querySelector(".tools-grid");
