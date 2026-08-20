@@ -2,23 +2,26 @@ const tools = [
   {
     name: "GLB Viewer",
     description: "View and inspect 3D models directly in your browser.",
-    link: "#"
+    image: "images/GLB.png",
+    link: "https://glb2viewer.netlify.app"
   },
   {
     name: "Flight Planning Tool",
     description: "Simple tools for planning drone missions and checking flight parameters.",
-    link: "#"
+    image: "images/droneoverlap.png",
+    link: "https://droneoverlap.netlify.app"
   },
 {
     name: "KML Splitter",
     description: "Split multi-polygon KML files into individual pieces.",
-    link: "#"
+    image: "images/KMLSplitter.png",
+    link: "https://thekmlsplitter.netlify.app"
   },
   {
     name: "KML / GeoJSON Converter",
     description: "Convert between KML and GeoJSON formats.",
     image: "images/KMLGeojson.png",
-    link: "#"
+    link: "https://geojsonkml.netlify.app"
   }
 ];
 
@@ -42,7 +45,12 @@ tools.forEach(tool => {
 
     <p>${tool.description}</p>
 
-    <a class="tool-button" href="${tool.link}">
+    <a
+      class="tool-button"
+      href="${tool.link}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       Launch Tool
     </a>
   `;
