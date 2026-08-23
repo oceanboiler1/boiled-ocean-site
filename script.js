@@ -21,7 +21,7 @@ const tools = [
   {
     name: "GLB Viewer",
     description: "View and inspect 3D models directly in your browser.",
-    image: "images/GLB.png",
+    image: "images/GLB2.png",
     link: "https://glb2viewer.netlify.app"
   },
 ];
