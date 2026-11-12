@@ -24,6 +24,12 @@ const tools = [
     image: "images/GLB2.png",
     link: "https://glb2viewer.netlify.app"
   },
+  {
+    name: "Markdown to PDF Converter",
+    description: "Convert Markdown files to PDF format.",
+    image: "images/MarkdownToPDF.png",
+    link: "https://mdtpdf.netlify.app"
+  },
 ];
 
 const toolsGrid = document.querySelector(".tools-grid");
